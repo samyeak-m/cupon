@@ -7,11 +7,11 @@ export default function Home() {
   const { currentUser } = useSelector((state) => state.user);
 
   return (
-    <div className='bg-violet-600'>
-      <h1 className='text-5xl font-sans pt-24 text-white font-black text-center p-10'>
+    <div className='bg-white'>
+      <h1 className='text-5xl font-sans pt-24 text-violet-600 font-black text-center p-10'>
       Nepal's Premier Student Discounts Hub!      
       </h1>
-      <p className='text-center pb-8 p-2 font-light font-sans text-white'>Study More, Spend Less - Empowering Nepali Students with Unmatched Deals!</p>
+      <p className='text-center pb-8 p-2 font-light font-sans text-black'>Study More, Spend Less - Empowering Nepali Students with Unmatched Deals!</p>
              
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center">
         {offersData.map((offer, index) => (
